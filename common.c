@@ -209,37 +209,4 @@ void read_tag_name(char *tag)
         printf("Artist");
     }
 
-    // TALB represents the album
-    else if(strcmp(tag, "TALB") == 0)
-    {
-        printf("Album");
-    }
-
-    // TYER represents the year
-    else if(strcmp(tag, "TYER") == 0)
-    {
-        printf("Year");
-    }
-
-    // TCON represents the genre
-    else if(strcmp(tag, "TCON") == 0)
-    {
-        printf("Genre");
-    }
-
-    // TCOM represents the composer
-    else if(strcmp(tag, "TCOM") == 0)
-    {
-        printf("Composer");
-    }
-    else if(strcmp(tag, "COMM") == 0)
-{
-    printf("COMM");
-}
-
-    else
-    printf("TAG Not Found");
-
-}
-
 
